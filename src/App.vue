@@ -1,10 +1,11 @@
 <template>
- <div class="bg-dark-blue w-[rem] h-[38.5rem] overflow-hidden">
- hello
+ <div class="bg-black w-[rem] h-[38.5rem] sm:h-[55.3rem] flex items-center justify-center overflow-hidden">
+ <Card />
  </div>
 </template>
 
 <script setup>
+import Card from './components/Card.vue'
 
 </script>
 
